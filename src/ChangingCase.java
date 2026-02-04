@@ -14,15 +14,14 @@ public class ChangingCase {
         for (int i = 0; i < n; i++) {
             arr[i] = str.charAt(i);
         }
-        for(int i=0;i<n;i++){
-            if(Character.isUpperCase(arr[i])){
-                arr[i]=Character.toLowerCase(arr[i]);
-            }
-            else if(Character.isLowerCase(arr[i])){
-                arr[i]=Character.toUpperCase(arr[i]);
+        for (int i = 0; i < n; i++) {
+            if (Character.isUpperCase(arr[i])) {
+                arr[i] = Character.toLowerCase(arr[i]);
+            } else if (Character.isLowerCase(arr[i])) {
+                arr[i] = Character.toUpperCase(arr[i]);
             }
         }
-        for(int i=0;i<n;i++){
+        for (int i = 0; i < n; i++) {
             System.out.print(arr[i]);
         }
     }
