@@ -1,8 +1,6 @@
 import java.util.Scanner;
 
-import java.util.*;
-
-public class recursionmathpow{
+public class RecursionMathPow{
 
     public static int power(int x,int n){
         if(n==0){
@@ -19,4 +17,3 @@ public class recursionmathpow{
         System.out.println(power(x,n));
     }
 }
-
